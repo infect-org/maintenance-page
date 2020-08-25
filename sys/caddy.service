@@ -1,5 +1,5 @@
 [Service]
-ExecStart=caddy run
+ExecStart=caddy run --config /home/ubuntu/apps/maintenance-page/Caddyfile
 Restart=always
 StandardOutput=syslog
 StandardError=syslog

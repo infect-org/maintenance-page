@@ -1,14 +1,21 @@
 infect.info {
-    file_server
-    root * ./www
+    file_server {
+        root www
+        index index.html
+    }
+    
 }
 
 infect.org {
-    file_server
-    root * ./www   
+    file_server {
+        root www
+        index index.html
+    } 
 }
 
 vet.infect.info {
-    file_server
-    root * ./www
+    file_server {
+        root www
+        index index.html
+    }
 }
