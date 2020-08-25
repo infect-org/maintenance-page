@@ -1,0 +1,14 @@
+infect.info {
+    file_server
+    root * ./www
+}
+
+infect.org {
+    file_server
+    root * ./www   
+}
+
+vet.infect.info {
+    file_server
+    root * ./www
+}

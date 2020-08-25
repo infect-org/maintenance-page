@@ -1,0 +1,13 @@
+[Service]
+ExecStart=caddy run
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=rda
+User=root
+Group=root
+
+WorkingDirectory=/home/ubuntu/apps/maintenance-page
+
+[Install]
+WantedBy=multi-user.target
